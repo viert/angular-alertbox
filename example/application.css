@@ -1,0 +1,21 @@
+body {
+	margin : 9px;
+}
+
+.alert-box {
+	margin-bottom: 8px;
+}
+
+.alert-box.ng-enter {
+	-webkit-animation: bounceIn 1s;
+	-moz-animation: bounceIn 1s;
+	-ms-animation: bounceIn 1s;
+	animation: bounceIn 1s;
+}
+
+.alert-box.ng-leave {
+	-webkit-animation: bounceOut 1s;
+	-moz-animation: bounceOut 1s;
+	-ms-animation: bounceOut 1s;
+	animation: bounceOut 1s;
+}

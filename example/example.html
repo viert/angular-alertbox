@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Angular AlertBox Example</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css" rel="stylesheet" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/foundation.min.css" rel="stylesheet" />
+    <link href="application.css" rel="stylesheet" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular-animate.min.js"></script>
+    <script src="../angular-alertbox.js"></script>
+    <script src="example.js"></script>
+</head>
+<body>
+    <alert-box box-class="alert-box radius" alert-class="alert" notice-class="success" warning-class="warning"></alert-box>
+    <div ng-controller="MainCtrl">
+        <button ng-click="alertMe()">Alert!</button>
+        <button ng-click="warnMe()">Warning!</button>
+        <button ng-click="noticeMe()">Notice!</button>
+    </div>
+</body>
+</html>
