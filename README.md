@@ -9,7 +9,7 @@ Usage
 -----
 Link js file into your html right after angular.min.js or using requirejs lib.
 ```html
-<link rel="stylesheet" href="angular-alertbox.js"/>
+<script src="angular-alertbox.js"></script>
 ```
 Add the module **AlertBox** to dependency injector and use the service **AlertService** in your controllers:
 ```javascript
